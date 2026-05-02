@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nidhi Iyer — dreamsincode</title>
+  <meta name="description" content="Nidhi Iyer — ML/AI engineer, open-source contributor, and final-year CSE student from Hyderabad.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- ── Nav ── -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">nidhi<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#work">work</a></li>
+      <li><a href="#learning">learning</a></li>
+      <li><a href="#writing">writing</a></li>
+      <li><a href="#now">now</a></li>
+    </ul>
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu">&#9776;</button>
+  </div>
+  <div class="nav-drawer" id="nav-drawer">
+    <a href="#work">work</a>
+    <a href="#learning">learning</a>
+    <a href="#writing">writing</a>
+    <a href="#now">now</a>
+  </div>
+</nav>
+
+<!-- ── Hero ── -->
+<section class="hero" id="hero">
+  <div class="stars-container" id="stars"></div>
+
+  <div class="moon-wrap">
+    <div class="moon-glow"></div>
+    <div class="moon"></div>
+  </div>
+
+  <!-- Treeline SVG with actual tree silhouettes -->
+  <svg class="treeline" viewBox="0 0 1440 500" preserveAspectRatio="none" aria-hidden="true">
+    <!-- Back layer: distant forest -->
+    <path d="M0 500 L0 320 C30 310,40 260,60 230 C70 210,80 260,100 280 C120 260,130 210,150 190 C160 175,170 210,190 250 C200 230,210 200,230 180 C240 165,250 200,270 240 C290 220,300 180,320 160 C330 150,340 180,360 220 C380 200,390 170,410 150 C420 140,430 170,450 210 C470 190,480 160,500 140 C510 130,520 160,540 200 C560 180,570 150,590 130 C600 120,610 150,630 190 C650 170,660 140,680 120 C690 110,700 140,720 180 C740 160,750 130,770 110 C780 100,790 130,810 170 C830 150,840 120,860 100 C870 90,880 120,900 160 C920 140,930 110,950 90 C960 80,970 110,990 150 C1010 130,1020 100,1040 80 C1050 70,1060 100,1080 140 C1100 120,1110 90,1130 70 C1140 60,1150 90,1170 130 C1190 110,1200 80,1220 60 C1230 50,1240 80,1260 120 C1280 100,1290 70,1310 50 C1320 40,1330 70,1350 110 C1370 90,1380 60,1400 50 C1420 45,1430 70,1440 100 L1440 500Z" fill="#0a1a0c"/>
+
+    <!-- Mid layer: pine trees -->
+    <path d="M0 500 L0 350 L20 350 L30 280 L40 320 L50 260 L60 310 L70 350
+      L100 350 L100 340 C120 330,130 300,140 280 C150 260,155 290,165 310 C175 290,180 250,190 230 C200 215,205 250,215 280 C225 260,230 220,240 200 C250 185,255 220,265 260 C275 240,280 200,290 180 C300 165,305 200,315 240
+      L340 350 L370 350 L380 290 L385 310 L390 250 L395 280 L400 220 L405 260 L410 300 L415 350
+      L460 350 C470 340,475 300,480 270 C485 250,490 280,500 310 C510 290,515 250,520 220 C525 200,530 240,540 280 C550 260,555 220,560 190 C565 175,570 210,580 250
+      L610 350 L640 350 L650 300 L655 320 L660 270 L665 300 L670 240 L675 280 L680 310 L685 350
+      L720 350 C730 340,735 290,740 260 C745 240,750 270,760 300 C770 280,775 240,780 210 C785 195,790 230,800 270 C810 250,815 210,820 180 C825 165,830 200,840 240
+      L870 350 L900 350 L910 280 L915 310 L920 250 L925 290 L930 230 L935 270 L940 310 L945 350
+      L980 350 C990 340,995 300,1000 270 C1005 250,1010 280,1020 310 C1030 290,1035 250,1040 220 C1045 200,1050 240,1060 280
+      L1090 350 L1120 350 L1130 290 L1135 310 L1140 260 L1145 290 L1150 230 L1155 270 L1160 300 L1165 350
+      L1200 350 C1210 340,1215 290,1220 260 C1225 240,1230 270,1240 300 C1250 280,1255 240,1260 210 C1265 195,1270 230,1280 270
+      L1310 350 L1340 350 L1350 300 L1355 320 L1360 270 L1365 300 L1370 250 L1375 280 L1380 310 L1385 350
+      L1440 350 L1440 500Z" fill="#0c1e0e"/>
+
+    <!-- Front-mid layer: mixed canopy -->
+    <path d="M0 500 L0 390 C20 380,30 350,50 330 C60 320,70 340,90 360 C100 345,110 320,130 300 C140 290,150 310,170 340 C180 325,190 300,210 280 C220 270,230 290,250 320 C260 305,270 280,290 260 C300 250,310 270,330 300 C340 285,350 260,370 240 C380 230,390 250,410 280 C420 265,430 240,450 220 C460 210,470 230,490 260 C500 245,510 220,530 200 C540 190,550 210,570 240 C580 225,590 200,610 180 C620 170,630 190,650 220 C660 205,670 180,690 160 C700 150,710 170,730 200 C740 185,750 160,770 140 C780 130,790 150,810 180 C820 165,830 140,850 130 C860 125,870 140,890 170 C900 155,910 140,930 150 C940 155,950 140,970 160 C980 170,990 150,1010 170 C1020 180,1030 160,1050 180 C1060 190,1070 170,1090 190 C1100 200,1110 180,1130 200 C1140 210,1150 190,1170 210 C1180 220,1190 200,1210 220 C1220 230,1230 210,1250 230 C1260 240,1270 220,1290 240 C1300 250,1310 230,1330 250 C1340 260,1350 240,1370 260 C1380 270,1390 250,1410 270 C1420 280,1430 260,1440 280 L1440 500Z" fill="#0e2210"/>
+
+    <!-- Foreground: closest trees -->
+    <path d="M0 500 L0 420 C30 410,50 390,70 400 C90 395,100 380,120 390 C140 385,150 370,170 380 C190 375,200 360,220 370 C240 365,250 350,270 360 C290 355,300 340,320 350 C340 345,350 330,370 340 C390 335,400 320,420 330 C440 325,450 310,470 320 C490 315,500 300,520 310 C540 305,550 290,570 300 C590 295,600 280,620 290 C640 285,650 270,670 280 C690 275,700 260,720 270 C740 265,750 250,770 260 C790 255,800 240,820 250 C840 245,850 230,870 240 C890 235,900 220,920 230 C940 225,950 210,970 220 C990 215,1000 200,1020 210 C1040 205,1050 190,1070 200 C1090 195,1100 180,1120 190 C1140 185,1150 200,1170 210 C1190 215,1200 230,1220 240 C1240 245,1250 260,1270 270 C1290 275,1300 290,1320 300 C1340 305,1350 320,1370 330 C1390 335,1400 350,1420 360 C1430 365,1435 380,1440 390 L1440 500Z" fill="#102410"/>
+  </svg>
+
+  <div class="mist"></div>
+
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="hero-eyebrow" id="hero-eyebrow">software engineer · hyderabad</p>
+      <h1>
+        hi, i'm<br>
+        <span id="hero-name">nidhi</span>.<br>
+        <em>i dream in code.</em>
+      </h1>
+      <p class="hero-bio" id="hero-bio">I'm a final-year CSE student with hands-on ML/AI engineering experience at Infor and TalentSprint. I build production-grade ML pipelines, win hackathons, and lead open-source teams — always looking for the next thing to learn.</p>
+      <div class="hero-buttons">
+        <a href="#work" class="btn-primary">view my work</a>
+        <button class="btn-ghost" id="email-btn" type="button">
+          <span class="email-label">say hello</span>
+          <span class="email-reveal" id="email-reveal"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="status-cards" id="status-cards">
+      <!-- Populated by JS from site-data.json -->
+    </div>
+  </div>
+</section>
+
+<!-- ── Now Strip ── -->
+<div class="now-strip" id="now">
+  <div class="now-strip-inner">
+    <div class="pulse-dot"></div>
+    <p class="now-strip-text" id="now-text">loading...</p>
+  </div>
+</div>
+
+<!-- ── Selected Work ── -->
+<section id="work">
+  <div class="section-inner">
+    <div class="section-eyebrow"><span>selected work</span></div>
+    <div class="proj-grid" id="proj-grid">
+      <!-- Populated by JS from site-data.json -->
+    </div>
+  </div>
+</section>
+
+<!-- ── Firefly Game ── -->
+<section class="firefly-section" id="fireflies">
+  <div class="section-inner">
+    <div class="section-eyebrow"><span>catch a firefly, learn a secret</span></div>
+    <p class="firefly-intro">Fireflies carry little-known facts about me. Click them before they drift away.</p>
+    <div class="firefly-arena-wrap">
+      <canvas id="firefly-canvas"></canvas>
+      <div class="firefly-hud">
+        <span class="firefly-score" id="firefly-score">0 / 12 caught</span>
+      </div>
+      <div class="firefly-fact" id="firefly-fact" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Learning ── -->
+<section id="learning">
+  <div class="section-inner">
+    <div class="section-eyebrow"><span>what i'm learning</span></div>
+    <div class="learning-pills" id="learning-pills">
+      <!-- Populated by JS -->
+    </div>
+    <div class="learning-progress">
+      <span class="learning-progress-label" id="learning-label">week 1 of 9</span>
+      <div class="learning-bar"><div class="learning-bar-fill" id="learning-fill" style="width:11%"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Writing ── -->
+<section id="writing">
+  <div class="section-inner">
+    <div class="section-eyebrow"><span>writing</span></div>
+    <ul class="writing-list" id="writing-list">
+      <!-- Populated by JS -->
+    </ul>
+    <a href="#" class="writing-more" id="writing-more" target="_blank" rel="noopener">view all on linkedin →</a>
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer class="footer">
+  <div class="footer-inner">
+    <p class="footer-left">made with intention · hyderabad, india</p>
+    <div class="footer-links" id="footer-links">
+      <a href="#" id="footer-linkedin" target="_blank" rel="noopener">linkedin</a>
+      <a href="#" id="footer-github" target="_blank" rel="noopener">github</a>
+      <a href="#" id="footer-email">email</a>
+    </div>
+  </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>

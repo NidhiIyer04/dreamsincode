@@ -1,0 +1,55 @@
+{
+  "name": "nidhi",
+  "eyebrow": "software engineer · hyderabad",
+  "bio": "Final-year CS student who accidentally became an ML engineer. I build things that probably shouldn't work but somehow do — from post-quantum crypto scanners to delivery route optimizers. Currently interning at Infor, mass-applying to jobs, and learning way too many programming languages at once.",
+  "email": "nidhiiyer04@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/nidhi-iyer-6ab24b251/",
+  "github": "https://github.com/NidhiIyer04",
+
+  "status": {
+    "learning": { "label": "currently obsessing over", "value": "DSA — arrays, strings, hashing" },
+    "roles":    { "label": "hire me pls",              "value": "ML/AI · SDE · Fintech",          "detail": "Hyderabad · remote · will relocate for good coffee" },
+    "leetcode": { "label": "leetcode arc",             "value": "~200 problems deep",              "detail": "aiming for 400 by July (send help)" }
+  },
+
+  "now": {
+    "week": 1,
+    "totalWeeks": 9,
+    "text": "week 1 of 9 — grinding 15 LeetCode problems, rewriting my resume for the 47th time, applying to 3 jobs a day, and somehow also learning ALGOL & SQL for a 7-languages challenge I voluntarily signed up for."
+  },
+
+  "projects": [
+    { "tag": "security · python",        "title": "QSecure",                       "desc": "A scanner that finds quantum-vulnerable crypto in your codebase and migrates it to post-quantum algorithms. Because future-me shouldn't have to deal with that.", "url": "https://github.com/NidhiIyer04/QSecure" },
+    { "tag": "mobile · fastapi",         "title": "RouteGenie",                    "desc": "Delivery route optimizer with a Flutter app, FastAPI backend, and way too many analytics dashboards. It calculates time, fuel, and traffic so drivers don't have to.", "url": "https://github.com/NidhiIyer04/RouteGenie" },
+    { "tag": "open source · games",      "title": "WE Arcade",                     "desc": "Ran a GitHub org where 100+ people built browser games together. My job was mostly saying 'please write tests' and 'that's not how you do a code review.'", "url": "https://github.com/WE-Arcade" },
+    { "tag": "mlops · aws",              "title": "SconeVision",                   "desc": "An MLOps pipeline on AWS that classifies delivery vehicles in real-time. SageMaker, Step Functions, the whole circus. 97.68% accuracy — the 2.32% keeps me humble.", "url": "https://github.com/NidhiIyer04/ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker" },
+    { "tag": "research · deep learning", "title": "Arrhythmia Detection",          "desc": "Teaching a neural network to read heartbeats better than I can. ResNet + BiLSTM + Attention for 61-class ECG classification. Still ongoing, still debugging.", "url": "" },
+    { "tag": "hackathon · ocr",          "title": "Smart India Hackathon — Top 5", "desc": "Built an OCR system to digitize government documents that scanners couldn't read. Placed top 5 nationally, which was cool until I realized there's no prize money.", "url": "" }
+  ],
+
+  "learning": {
+    "active":   ["Arrays & Strings", "Hashing", "Neetcode 150", "ALGOL & SQL"],
+    "upcoming": ["Two Pointers", "Sliding Window", "Binary Search", "Trees & Graphs", "Dynamic Programming", "System Design"]
+  },
+
+  "writing": [
+    { "title": "Why I'm Learning 7 Programming Languages in 7 Weeks",                    "date": "May 2026",  "url": "https://www.linkedin.com/in/nidhi-iyer-6ab24b251/" },
+    { "title": "Building ML Pipelines in Air-Gapped Environments at Infor",               "date": "Apr 2026",  "url": "https://www.linkedin.com/in/nidhi-iyer-6ab24b251/" },
+    { "title": "What Leading 100+ Open-Source Contributors Taught Me About Code Reviews", "date": "Mar 2026",  "url": "https://www.linkedin.com/in/nidhi-iyer-6ab24b251/" }
+  ],
+
+  "fireflyFacts": [
+    "top 500 globally in the AWS AI/ML scholarship — out of thousands, not gonna lie that felt good",
+    "survived 2 years of Google Women Engineers and graduated as class rep",
+    "200+ LeetCode problems solved and my mass is slowly becoming one with my desk chair",
+    "once built an AI fitness trainer using Claude Sonnet... the irony is not lost on me",
+    "herded 100+ open-source contributors across 10 teams — basically a cat wrangler with a GitHub account",
+    "currently learning 7 programming languages in 7 weeks because apparently I hate free time",
+    "got a Linux Foundation scholarship for Kubernetes — yes I can explain pods, no I will not",
+    "my computer vision model hit 97.68% accuracy — the remaining 2.32% is ✨character✨",
+    "built a post-quantum crypto tool before most people knew quantum computing was a threat",
+    "presented an AI system to senior leadership at TalentSprint and didn't pass out (growth!)",
+    "fine-tuned a local LLM with prompt-injection safeguards — trust issues, but make it engineering",
+    "researching 61-class ECG arrhythmia detection because apparently 5 classes was too easy"
+  ]
+}
