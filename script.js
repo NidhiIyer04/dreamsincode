@@ -8,55 +8,54 @@ document.addEventListener('DOMContentLoaded', () => {
   const D = {
     name: "nidhi",
     eyebrow: "software engineer · hyderabad",
-    bio: "Final-year CS student who accidentally became an ML engineer. I build things that probably shouldn\u2019t work but somehow do \u2014 from post-quantum crypto scanners to delivery route optimizers. Currently interning at Infor, mass-applying to jobs, and learning way too many programming languages at once.",
+    bio: "Final year CS student who accidentally became an ML engineer. I build things that probably shouldn\u2019t work but somehow do  -  from post-quantum crypto scanners to delivery route optimizers. Currently interning at Infor, mass-applying to jobs, and learning way too many programming languages at once.",
     email: "nidhiiyer04@gmail.com",
     linkedin: "https://www.linkedin.com/in/nidhi-iyer-6ab24b251/",
     github: "https://github.com/NidhiIyer04",
 
     status: {
-      learning: { label: "currently obsessing over", value: "DSA \u2014 arrays, strings, hashing" },
+      learning: { label: "currently obsessing over", value: "LISP" },
       roles:    { label: "hire me pls",              value: "ML/AI \u00b7 SDE \u00b7 Fintech",    detail: "Hyderabad \u00b7 remote \u00b7 will relocate for good coffee" },
       leetcode: { label: "leetcode arc",             value: "~200 problems deep",                  detail: "aiming for 400 by July (send help)" }
     },
 
     now: {
-      week: 1,
+      week: 2,
       totalWeeks: 9,
-      text: "week 1 of 9 \u2014 grinding 15 LeetCode problems, rewriting my resume for the 47th time, applying to 3 jobs a day, and somehow also learning ALGOL & SQL for a 7-languages challenge I voluntarily signed up for."
+      text: "week 2 of 9  -  grinding 15 LeetCode problems, rewriting my resume for the 47th time, applying to 3 jobs a day, and somehow also learning ALGOL & SQL for a 7-languages in 10-weeks challenge I voluntarily signed up for."
     },
 
     projects: [
-      { tag: "security \u00b7 python",        title: "QSecure",                       desc: "A scanner that finds quantum-vulnerable crypto in your codebase and migrates it to post-quantum algorithms. Because future-me shouldn\u2019t have to deal with that.", url: "https://github.com/NidhiIyer04/QSecure" },
+      { tag: "security \u00b7 python",        title: "QSecure",                       desc: "A scanner that finds quantum vulnerable crypto in your codebase and migrates it to post quantum algorithms. Because future me shouldn\u2019t have to deal with that.", url: "https://github.com/NidhiIyer04/QSecure" },
       { tag: "mobile \u00b7 fastapi",         title: "RouteGenie",                    desc: "Delivery route optimizer with a Flutter app, FastAPI backend, and way too many analytics dashboards. It calculates time, fuel, and traffic so drivers don\u2019t have to.", url: "https://github.com/NidhiIyer04/RouteGenie" },
       { tag: "open source \u00b7 games",      title: "WE Arcade",                     desc: "Ran a GitHub org where 100+ people built browser games together. My job was mostly saying \u2018please write tests\u2019 and \u2018that\u2019s not how you do a code review.\u2019", url: "https://github.com/WE-Arcade" },
-      { tag: "mlops \u00b7 aws",              title: "SconeVision",                   desc: "An MLOps pipeline on AWS that classifies delivery vehicles in real-time. SageMaker, Step Functions, the whole circus. 97.68% accuracy \u2014 the 2.32% keeps me humble.", url: "https://github.com/NidhiIyer04/ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker" },
+      { tag: "mlops \u00b7 aws",              title: "SconeVision",                   desc: "An MLOps pipeline on AWS that classifies delivery vehicles in real-time. SageMaker, Step Functions, the whole circus. 97.68% accuracy  -  the 2.32% keeps me humble.", url: "https://github.com/NidhiIyer04/ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker" },
       { tag: "research \u00b7 deep learning", title: "Arrhythmia Detection",          desc: "Teaching a neural network to read heartbeats better than I can. ResNet + BiLSTM + Attention for 61-class ECG classification. Still ongoing, still debugging.", url: "" },
-      { tag: "hackathon \u00b7 ocr",          title: "Smart India Hackathon \u2014 Top 5", desc: "Built an OCR system to digitize government documents that scanners couldn\u2019t read. Placed top 5 nationally, which was cool until I realized there\u2019s no prize money.", url: "" }
+      { tag: "hackathon \u00b7 ocr",          title: "Smart India Hackathon  -  Top 5", desc: "Built an OCR system to digitize government documents that scanners couldn\u2019t read. Placed top 5 nationally, which was cool until I realized I had end sems at the same time.", url: "" }
     ],
 
     learning: {
-      active:   ["Arrays & Strings", "Hashing", "Neetcode 150", "ALGOL & SQL"],
-      upcoming: ["Two Pointers", "Sliding Window", "Binary Search", "Trees & Graphs", "Dynamic Programming", "System Design"]
+      active:   ["Hashing", "Neetcode 150", "ALGOL & SQL"],
+      upcoming: ["Binary Search", "Trees & Graphs", "Dynamic Programming", "System Design"]
     },
 
     writing: [
-      { title: "Why I\u2019m Learning 7 Programming Languages in 7 Weeks",                    date: "May 2026",  url: "https://www.linkedin.com/in/nidhi-iyer-6ab24b251/" },
-      { title: "Building ML Pipelines in Air-Gapped Environments at Infor",                    date: "Apr 2026",  url: "https://www.linkedin.com/in/nidhi-iyer-6ab24b251/" },
-      { title: "What Leading 100+ Open-Source Contributors Taught Me About Code Reviews",      date: "Mar 2026",  url: "https://www.linkedin.com/in/nidhi-iyer-6ab24b251/" }
+      { title: "Why I\u2019m Learning 7 Programming Languages in 7 Weeks",                    date: "May 2026",  url: "https://www.linkedin.com/posts/nidhi-iyer-dev_im-starting-a-10-weeks-7-ur-languages-challenge-ugcPost-7454239607182741504-kbPw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD4meiMBZnhat0-m46tDyuNAW7tuOWbeaH8" },
+      { title: "My Favorite achievement",                    date: "May 2025",  url: "https://www.linkedin.com/posts/nidhi-iyer-dev_from-receiving-a-rejection-email-to-becoming-ugcPost-7309510817564016640-udLh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD4meiMBZnhat0-m46tDyuNAW7tuOWbeaH8" }
     ],
 
     fireflyFacts: [
-      "top 500 globally in the AWS AI/ML scholarship \u2014 out of thousands, not gonna lie that felt good",
+      "top 500 globally in the AWS AI/ML scholarship  -  out of thousands, not gonna lie that felt good",
       "survived 2 years of Google Women Engineers and graduated as class rep",
-      "200+ LeetCode problems solved and my mass is slowly becoming one with my desk chair",
+      "200+ LeetCode problems solved and I am slowly becoming one with my desk chair",
       "once built an AI fitness trainer using Claude Sonnet... the irony is not lost on me",
-      "herded 100+ open-source contributors across 10 teams \u2014 basically a cat wrangler with a GitHub account",
-      "currently learning 7 programming languages in 7 weeks because apparently I hate free time",
-      "got a Linux Foundation scholarship for Kubernetes \u2014 yes I can explain pods, no I will not",
-      "my computer vision model hit 97.68% accuracy \u2014 the remaining 2.32% is \u2728character\u2728",
+      "herded 100+ open source contributors across 10 teams",
+      "currently learning 7 programming languages in 10 weeks because apparently I hate free time",
+      "got a Linux Foundation scholarship for Kubernetes  -  yes I can explain pods, no I will not",
+      "my computer vision model hit 97.68% accuracy  -  the remaining 2.32% is \u2728character\u2728",
       "built a post-quantum crypto tool before most people knew quantum computing was a threat",
       "presented an AI system to senior leadership at TalentSprint and didn\u2019t pass out (growth!)",
-      "fine-tuned a local LLM with prompt-injection safeguards \u2014 trust issues, but make it engineering",
+      "fine-tuned a local LLM with prompt-injection safeguards  -  trust issues, but make it engineering",
       "researching 61-class ECG arrhythmia detection because apparently 5 classes was too easy"
     ]
   };
@@ -95,15 +94,24 @@ document.addEventListener('DOMContentLoaded', () => {
   $('hero-name').textContent = D.name;
   $('hero-bio').textContent = D.bio;
 
-  /* ── Email reveal ── */
+  /* ── Email popup ── */
   const emailBtn = $('email-btn');
-  const emailReveal = $('email-reveal');
-  emailReveal.textContent = D.email;
+  const emailPopup = $('email-popup');
+  const emailText = $('email-popup-text');
+  const emailCopy = $('email-popup-link');
+  emailText.textContent = D.email;
   emailBtn.addEventListener('click', () => {
-    if (emailBtn.classList.contains('revealed')) {
-      window.location.href = 'mailto:' + D.email;
-    } else {
-      emailBtn.classList.add('revealed');
+    emailPopup.classList.toggle('visible');
+  });
+  emailCopy.addEventListener('click', () => {
+    navigator.clipboard.writeText(D.email).then(() => {
+      emailCopy.textContent = 'copied!';
+      setTimeout(() => { emailCopy.textContent = 'copy'; }, 1500);
+    });
+  });
+  document.addEventListener('click', (e) => {
+    if (!emailBtn.contains(e.target) && !emailPopup.contains(e.target)) {
+      emailPopup.classList.remove('visible');
     }
   });
 
